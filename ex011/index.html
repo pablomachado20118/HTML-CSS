@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>imagens dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Aprendendo a reproduzir audio</h1>
+    <audio src="audios/The Fog - Trey Xavier, Rod Kim.mp3" controls></audio>
+    <h1>o outro modo</h1>
+    <audio>
+        <source src="audios/The Fog - Trey Xavier, Rod Kim.mp3" type="audio/mpeg">
+    </audio>
+
+    <h1>Video hospedado localmente</h1>
+    <p>esse video esta hospedado no meu computador</p>
+    <video src="videos/15708541_1080_1920_30fps.mp4" width="500" controls></video>
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3-WITaFCxg0?si=XA04q7zYMv2u8IYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
