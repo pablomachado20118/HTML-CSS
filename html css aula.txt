@@ -1,0 +1,124 @@
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+
+nasceu na guerra  fria
+nasceu para fazer backup de informacao entre bases
+
+url = é o link do site
+
+tld = .com
+gtld = generico , .gov, .edu .store
+cctld = codigo  pais , .br , .us , .uk 
+
+www = sub dominio
+ depois da / é o  caminho
+
+html
+<h1> Exemplo de titulo </h1>
+<p> exemplo de paragrafo </p>
+<img src= "foto.png" alt="Exemplo de foto">  o comeco é onde a foto esta, e o alt, é caso nao consiga aparecer a foto, vai aparecer essa descrisao
+
+css
+h1{
+font-family:Arial;
+font-size:20pt;
+color:blue;
+
+}
+
+estrutura basica de documento html = primeira  linha precisa ser = <!DOCTYPE html>
+depois tem = <html lang="pt-br">
+no final fecha  com = </html>
+e dentro  desse html  tem duas pasta de dentro(a direita), <head>   </head> , e depois <body>      </body>
+head é a area de configuracoes
+body é a area de corpo
+na head fica a  <meta  charset="UTF-8">, aceita ponto, e acento c cedilha
+na  head tbm tem = <meta name="viewport"     nao entendi direito
+                   content="width=device-width,
+                   initial-scale=1.0"
+e  por ultimo o <title>Document</title>
+
+agora na body pode colocar um = <h1>Ola, Mundo!</h1>
+para o paragrafo é <p> algo aaadwadda </p>
+<hr> = linha horizontal
+
+pode usar o <br> para quebrar a linha
+&lt; p &gt; para representar o < e > sem virar marcacao
+comentario é = <!-- adawdawdlawdla -->
+simbolos especiais vou nem anotar, muita coisa
+&#x"codigo do emoji"; para fazer emoji
+
+quando for pegar imagem no google, colocar a ferramenta para aparecer a sem direitos autorais
+ou usar o site, unsplash,pexels 
+ctrl + espaco para sugerir imagem
+podemos pegar imagens por link, ou dentro de sub-pastas
+
+https://favicon.io para criar icone
+link favicon para o icone da pagina // na cabeca
+
+ctrl shift p para o negocio de marcar
+ strong ou b para negrito
+ i ou em para italiano
+ mark para marcar
+ style para mudar as coisas(isso é mais css)
+ na cabeca para todos e so no lugar pra ser so la
+ 
+texto grande = big
+texto pequeno = small
+texto delatado = del
+texto inserido = ins
+para deixar o texto um pouco acima é = sup
+para deixar o texto um pouco abaixo é = sub
+
+code é bom para codigo pos fica tudo com o mesmo escaco
+o <pre> e bom deixar fora do code para nao atrapalhar a identacao
+citacoes simples = q
+citacoes completas = blockquote , e da para colocar um cite= . dentro para falar o link que pegou
+
+abreviacao é abbr, ai voce digita o que a sigla significa, e quando voce colocar o mouse, aparece 
+
+lista  ordenada, onde a ordem é importante, o comando é ol e li
+da para colocar type e start
+
+lista nao ordenedas, o comando é ul e li
+da para colocar type
+
+da pra fazer listas dentro da lista, nada novo
+
+lista com definicao
+dl para abrir
+dt o termo
+dd a descrisao
+
+para fazer um link  clickavel é com a tag "a" , a coloca o href o link, da para colocar target=_blank  para abrir em outra aba, ou deixar sem e trocar a aba, da pra colocar rel=external mas n entendi direito
+
+para link  interno é bem parecido, so muda o link,, control espaco sempre salva, tem o control shift p que é comando bom tbm,
+para voltar na pasta é ../apasta, da . volta 1 pagina.
+
+para baixar, voce  coloca o  arquivo na pasta e faz como se fosse um link, mas coloca  download e nome do arquivo, ou/e (nao entendi direito e nao funciona os dois jeitos),type = application/"o arquivo o que é"
+com pdf nao funcionou, mas  com zip funcionou
+
+aprendi sobre imagens flexiveis. voce usa o comando picture, e colocar a tag img para sua imagem, depois voce vai colocando em cima source media type, coloca tamanho max da pagina e a imagem, assim, se a tela tiver o tamanho maximo, é aquela imagen que vai aparecer, voce pode colocar o mesmo comando em cima, com a tela menor, fazendo assim a imagem mudar de acordo com o tamanho da tela do usuario.
+
+sobre audio, é facil. é so colocar a tag audio com a musica , pode usar o controls para voce controlar quando comecar a volume, nao consegui fazer o audio tocar so de entrar no site.
+tem o outro metodo usando audio ainda, mas apagando o comando que vem junto e usando so a tag audio mesmo, e dentro do audio voce a tag source src para colocar o audio, assim voce pode colocar varios audios, caso algum formato nao funcione em alguns computadores, pode colocar <p> no final falando que infelizmente nao conseguimos fazer o audio funcionar, e falar pro usuario baixar a musica. 
+tem varios comandos para o audio, tipo, preload(metadata é o melhor), autoplay, loop, pode pesquisar se quiser saber mais
+
+
+para colocar video, é a tag video, bem intuitivo, width para controlar o tamanho, e controls para aparecer os controles, poster para thumb
+o outro metodo é igual o do audio, coloca so a tag video e coloca varios source src, o computador vai tentar colocar os que tiver em cima, o recomendado e colocar do menor arquivo para o maior
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
