@@ -109,16 +109,113 @@ para colocar video, é a tag video, bem intuitivo, width para controlar o tamanh
 o outro metodo é igual o do audio, coloca so a tag video e coloca varios source src, o computador vai tentar colocar os que tiver em cima, o recomendado e colocar do menor arquivo para o maior
 
 
+Jeitos de colocar o css,  tem como colocar entre o codigo tipo (<h1 style="color: blueviolet;">Capitulo 1</h1>)
+dentro da head, assim     <style>
+        body {
+            background-color: lightcyan;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        h1 {
+            color: red;
+        }
+        h2 {
+            color: blue;
+        }
+        p {
+            text-align: justify;
+        }
+    </style>
+
+e com outra pagina,  depois usa o codigo <link rel="stylesheet" href="style.css"> na head.(@charset "UTF-8";) para aceitar acentos na pagina do css
 
 
+Cor | Associada a | Usar em | Evitar
+
+vermelho
+Associada a: amor, emoção, energia, raiva, perigo
+Usar em: comida, moda, entretenimento, serviços de emergência e saúde
+Evitar: luxo, natureza, serviços em geral
+
+amarelo
+Associada a: felicidade, alegria, otimismo, covardia
+Usar em: dar luz, dar calma e felicidade, chamar atenção
+Evitar: pode indicar que algo é barato ou spam
+
+laranja
+Associada a: divertimento, ambição, calor, cautela
+Usar em: comércio eletrônico, entretenimento, call-to-action
+Evitar: pode se tornar cansativo se muito explorado
+
+verde
+Associada a: saúde, natureza, dinheiro, sorte, inveja
+Usar em: relaxamento, turismo, financeiros, meio ambiente
+Evitar: luxo, tecnologia, meninas adolescentes
+
+azul
+Associada a: competência, sabedoria, calma, frio
+Usar em: tecnologia, medicina, ciências, governo
+Evitar: comida (reduz apetite)
+
+roxo
+Associada a: criatividade, poder, sabedoria, mistério
+Usar em: produtos de beleza, astrologia, ioga, espiritualidade, adolescente
+Evitar: não prende muito a atenção, indiferente
+
+marrom
+Associada a: terra, robustez, estabilidade, amizade
+Usar em: alimentação, imobiliária, animais, finanças
+Evitar: cor considerada conservadora
+
+preto
+Associada a: elegância, autoridade, mistério, morte
+Usar em: luxo, moda, marketing, cosméticos
+Evitar: desconforto e medo
+
+branco
+Associada a: pureza, limpeza, felicidade, segurança
+Usar em: medicina, saúde, tecnologia, luxo (com preto, ouro, cinza)
+Evitar: não chama atenção, deve ser combinado
+
+cinza
+Associada a: formalidade, sofisticação, frieza, indiferença
+Usar em: bens de luxo, efeito calmante
+Evitar: dá a sensação de frieza
+
+rosa
+Associada a: amor, romance, sinceridade, cuidados
+Usar em: produtos femininos e cosméticos
+Evitar: pode tornar muito sentimental e doce
 
 
+sobre cores, da pra colocar com nomes, tipo black, orange.
+com codigo exadecimal tipo 0000ff.
+e com rgb(0,0,0)
+
+cores primarias = amarelo, azul e vermelho
+cores  secundarias = verde, laranja e violeta
+cores  terciaria = mistura  entre as primarias e secundarias
+cores complementares = opostas no circulo cromatico 
+cores analogas = cores ao lado no circulo cromatico
+cores analogas relacionadas = pega duas cores uma  do lado da outra, pula uma e pega  a proxima
+cores intercaladas = pega 1, pula, pega 1, pula, pega 1. (nao fica muito bom)
+monocromia = escolhe uma cor, e muda  entre saturacao e luminosidade
+
+color.adobe.com   para fazer as palhetas, da para pegar a palheta da imagem
+
+paletton.com    tem preview de site com imagens
+
+para fazer degrade no site 
+ background-image: linear-gradient(to right, white, blue);   pode usar, left, right, top, 45deg, -45deg. pode colocar quantas cores voce quiser. pode escolher a porcentagem da cor no degrade
 
 
+medidas  absolutas = cm, mm, in, px ,pt, pc
+medidas relativas = em, ex, rem, vw, vh, % 
+16px é o tamanho padrao. que geralmente é igual a 1em
+usar sempre px ou em 
 
+font-weight  = tem lighter,  normal, bold e bolder. ou de 100 a 900
 
+da pra substituir(shorthand)  font-family, font-weight, font-size,  font-style.em um comando so com font: italic bolder 3em 'work sans', sans-serif (a ordem é style,weight,size,family)
 
-
-
-
-
+da pra importar fontes pelo google fonts
