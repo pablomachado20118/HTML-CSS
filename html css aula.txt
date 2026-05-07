@@ -219,3 +219,23 @@ font-weight  = tem lighter,  normal, bold e bolder. ou de 100 a 900
 da pra substituir(shorthand)  font-family, font-weight, font-size,  font-style.em um comando so com font: italic bolder 3em 'work sans', sans-serif (a ordem é style,weight,size,family)
 
 da pra importar fontes pelo google fonts
+
+@font-face para adicionar  a fonte externa, pode usar format() para definir o formato
+
+fonts ninja = para pegar  a fonte de uma pagina
+
+whatfontis.com, fontesquirrel, myfonts = para pegar a fonte de uma imagem
+
+text- indent: 30px = no comeco, vai dar um espaco de 30px
+
+Posso colocar id="algo" para  diferenciar dos outros,  tipo (<h1 id="principal">), e depois configurar ele no css com (h1#principal), posso colocar so #principal para fazer com todos que tem essa tag.
+funciona, mas n pode colocar mais de um id em um texto, no lugar, a gente usa class
+
+tudo que em html é id, em css  é #
+tudo que em html é class, em css é .
+
+posso colocar class="algo" para definir algo, tipo (<h2 class="basico">), e  para mudar so ele, uso .basico no css.pode criar varias class
+posso colocar o mesmo negocio com duas classes, ou com classes e id
+
+
+
